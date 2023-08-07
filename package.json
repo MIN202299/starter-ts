@@ -44,7 +44,8 @@
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "postinstall": "npx simple-git-hooks"
   },
   "devDependencies": {
     "@dcwjoy/eslint-config": "^0.39.28",
